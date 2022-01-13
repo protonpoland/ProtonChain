@@ -1,0 +1,64 @@
+{
+  "producer_account_name": "protonpltest",
+  "org": {
+    "candidate_name": "protonpoland",
+    "website": "https://protonpoland.com",
+    "code_of_conduct":"https://protonpoland.com/conduct.html",
+    "ownership_disclosure":"https://protonpoland.com/conduct.html#ownership",
+    "email":"protonpoland@protonpoland.com",
+    "github_user":["protonpoland"],
+    "branding":{
+      "logo_256":"https://protonpoland.com/media/logo-256.png",
+      "logo_512":"https://protonpoland.com/media/logo-512.png",
+      "logo_1024":"https://protonpoland.com/media/logo-1024.png",
+      "logo_svg":"https://protonpoland.com/media/logo.svg"
+    },
+    "location": {
+      "name": "Poland",
+      "country": "CN",
+      "latitude": 52.2297,
+      "longitude": 21.0122
+    },
+    "social": {
+      "twitter": "protonpoland",
+      "github":"",
+      "telegram": "protonpoland",
+      "wechat":"",
+      "medium":"protonpoland"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Poland",
+        "country": "DE",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Poland",
+        "country": "DE",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.protonpoland.com:9876"
+    },
+    {
+      "location": {
+        "name": "Poland",
+        "country": "DE",
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "node_type": "query",
+      "api_endpoint": "http://api.protonpoland.com",
+      "ssl_endpoint": "https://api.protonpoland.com",
+      "features": ["chain-api"]
+    }
+  ]
+}
+
